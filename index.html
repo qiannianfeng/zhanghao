@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="张浩的个人空间 - 探索科技与艺术的交汇">
+    <meta name="keywords" content="设计,创意,技术,博客,作品集">
+    <title>张浩的个人空间</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 添加网站图标 -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">张浩</a>
+            </div>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> 关于我</a></li>
+                <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> 作品集</a></li>
+                <li><a href="blog.html"><i class="fas fa-pen-nib"></i> 博客</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> 联系我</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="carousel swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/3.webp" alt="暴风雨天空">
+                    <div class="slide-content">
+                        <h2 class="slide-title">探索未知</h2>
+                        <p class="slide-description">在科技与自然的边界徘徊</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/1.webp" alt="未来机器人">
+                    <div class="slide-content">
+                        <h2 class="slide-title">未来视界</h2>
+                        <p class="slide-description">科技与人文的完美融合</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/2.webp" alt="神秘景观">
+                    <div class="slide-content">
+                        <h2 class="slide-title">奇幻世界</h2>
+                        <p class="slide-description">超越想象的视觉盛宴</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/4.webp" alt="赛博朋克城市">
+                    <div class="slide-content">
+                        <h2 class="slide-title">未来都市</h2>
+                        <p class="slide-description">霓虹与钢铁的交响曲</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </section>
+        
+        <section class="intro" data-aos="fade-up">
+            <h1 data-aos="zoom-in">欢迎来到张浩的个人空间</h1>
+            <p data-aos="fade-in" data-aos-delay="200">自然、科技与时间的交汇之地</p>
+            <div class="intro-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="portfolio.html" class="btn btn-primary">浏览作品</a>
+                <a href="contact.html" class="btn btn-secondary">联系我</a>
+            </div>
+        </section>
+        
+        <section class="features">
+            <div class="feature-container">
+                <div class="feature" data-aos="fade-right">
+                    <div class="feature-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>创意设计</h3>
+                    <p>融合现代审美与前沿技术，创造独特视觉体验</p>
+                </div>
+                
+                <div class="feature" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>技术开发</h3>
+                    <p>运用先进技术，构建高效、稳定的数字解决方案</p>
+                </div>
+                
+                <div class="feature" data-aos="fade-left">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>创新思维</h3>
+                    <p>突破常规，探索未知，寻找问题的创新解决方案</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>关于</h4>
+                <p>张浩的个人空间，探索科技与艺术的无限可能</p>
+            </div>
+            <div class="footer-section">
+                <h4>链接</h4>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about.html">关于我</a></li>
+                    <li><a href="portfolio.html">作品集</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>联系方式</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-weibo"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-bilibili"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 张浩的个人空间 | 探索 · 创造 · 分享</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
